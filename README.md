@@ -64,7 +64,24 @@ python sa_timetable.py
 
 **Copy the printed timetable output here:**
 ```
-<img width="1350" height="900" alt="experiment_1" src="https://github.com/user-attachments/assets/ef80b37e-88cc-4909-821e-30db0db8ae32" />
+================================================
+  EXPERIMENT 1 - Baseline
+================================================
+
+  Final Timetable
+------------------------------------------
+  Slot 1:  Geography
+  Slot 2:  Chemistry, English
+  Slot 3:  History, Computer Science, Economics
+  Slot 4:  Biology, Statistics
+  Slot 5:  Mathematics, Physics
+------------------------------------------
+  Total clashes : 3
+
+  Iterations     : 1379
+  Start clashes  : 12
+  Final clashes  : 3
+  Saved -> plots/experiment_1.png
 
 ```
 
@@ -110,7 +127,7 @@ The best result was achieved with cooling_rate = 0.95 and 0.995, both giving the
 | Experiment | Key setting | Final clashes | Main finding in one sentence |
 |------------|-------------|---------------|------------------------------|
 | 1 — Baseline | cooling_rate = 0.995 | 3|Slow cooling gives better solutions by allowing more exploration.  |
-| 2 — Cooling rate | cooling_rate = ___ |3 |Higher cooling rates perform better as they avoid getting stuck early and search more thoroughly. |
+| 2 — Cooling rate | cooling_rate = 0.995 |3 |Higher cooling rates perform better as they avoid getting stuck early and search more thoroughly. |
 
 **In your own words — what is the most important thing you learned about Simulated Annealing from these experiments? (3–5 sentences)**
 ```
